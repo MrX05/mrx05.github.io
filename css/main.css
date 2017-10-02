@@ -17,6 +17,8 @@ body {
 .nav {
 	text-align: center;
 	background-color: #1e1e1e;
+	position: fixed;
+	width: 100%;
 	
 }
 
@@ -94,4 +96,11 @@ box-shadow: 6px 7px 28px 0px rgba(0,0,0,0.75);
 
 .contact-link-i:hover {
 	color: #d56efd;
+}
+
+section {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
